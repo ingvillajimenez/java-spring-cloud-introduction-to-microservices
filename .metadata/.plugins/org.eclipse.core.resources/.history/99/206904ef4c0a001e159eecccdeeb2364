@@ -1,0 +1,13 @@
+package com.example.config;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ServiceDisServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceDisServerApplication.class, args);
+	}
+
+}
